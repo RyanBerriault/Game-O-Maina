@@ -5,6 +5,15 @@ TagManager:
   serializedVersion: 2
   tags:
   - PersistentData
+  - Friend
+  - Enemy
+  - Ground
+  - Pistol
+  - M4
+  - AK47
+  - AWP
+  - Shotgun
+  - FxTemporaire
   layers:
   - Default
   - TransparentFX
