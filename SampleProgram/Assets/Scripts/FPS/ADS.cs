@@ -12,8 +12,9 @@ public class ADS : MonoBehaviour
 	public float zoom;
 	private Camera cam;
 	private float normal;
-	
-	void Start()
+    ///public GameObject overlay;
+
+    void Start()
 	{
 		normal = cam.fieldOfView;
 		zoom = 20;
@@ -30,12 +31,15 @@ public class ADS : MonoBehaviour
 		if(Input.GetMouseButton(1))
 		{
 			cam.fieldOfView = zoom;
-		}
-		else
+            ///overlay.SetActive(true);
+
+        }
+        else
 		{
 			cam.fieldOfView = normal;
-		}
-		
+            ///overlay.SetActive(false);
+        }
 
-	}
+
+    }
 }
